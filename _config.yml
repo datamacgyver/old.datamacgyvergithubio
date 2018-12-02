@@ -4,9 +4,14 @@ email: mansfieldbitter@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Rob's blog on making data work. Somehow. I work in Python, R, ECL and
   anything else they throw at me.
+  
 # social links
 twitter_username: @datamacgyver
 github_username:  datamacgyver
+linkedin_username:    rpmansfield
+google_plus_username: 
+facebook_username:    
+dribbble_username:
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
