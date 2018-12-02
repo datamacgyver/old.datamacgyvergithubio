@@ -14,5 +14,6 @@ facebook_username:
 dribbble_username:
 
 show_excerpts: true # set to false to remove excerpts on the homepage
+show_downloads: true
 
 theme: jekyll-theme-midnight
