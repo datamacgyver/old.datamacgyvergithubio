@@ -10,8 +10,8 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.url }}">Home</a>
-      <a class="sidebar-nav-item{% if page.url == site.contentspage %} active{% endif %}" href="{{ site.url }}/pagelist/">Posts Index</a>
+      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.url %} active{% endif %}" href="{{ site.url }}/pagelist/">Posts Index</a>
       <!-- <a class="sidebar-nav-item" href="{{ site.baseurl }}">Home</a> -->
 
       {% comment %}
