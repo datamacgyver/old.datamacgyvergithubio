@@ -4,27 +4,34 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Good eves! I've been a lot of things in the past, everything from a baker to a lecturer. Today I run the Data Science Team at 
+  Proagrica. We will hack at anything but mostly we do farms and farming. 
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+# Past experience
 
-There are currently two themes built on Poole:
+## Employment
+Checkout my linkedIn (link to the left). I've:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+* Baked for the Co-op
+* Worked in a petrol station
+* Sold yogurts for Rachel's Dairy
+* Spent 8 years studying ecology
+* Spent 2 years lecturing ecology
+* Worked for IBM (never work for IBM)
+* Been at Proagrica (an RBI company) since 2016
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## Technology
 
-## Setup
+I mainly work in Python and R (no fanwars, please. Right tools, right job). I do a lot in HPCC and SQL but hack around a fair 
+bit on AWS and Elastic Search. Bit of machine learning, bit of GIS, some Docker here and there. You get the idea. 
 
-Some fun facts about the setup of this project include:
+# Current Work
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+Checkout my github (link to the left). Most of my open-source projects live on [Proagrica's github](https://github.com/OdinProAgrica/) 
+though. I look after three repos here:
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+* hpycc - a python connector for HPCC that makes it useable in a data science workflow
+* dapper - an ECL bundle that makes it easier to code in (and read the code for)
+* geodapper - not even at beta yet, this gives ECL the geo-functionality of Python's shapely
 
-Thanks for reading!
