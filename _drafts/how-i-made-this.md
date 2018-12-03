@@ -3,6 +3,9 @@
 ------------------------
 ------------------------
 
+http://hyde.getpoole.com/
+but had to apply some fixes
+
 # current issues
 - Images not displaying in dapper blog
 - social media links are shite

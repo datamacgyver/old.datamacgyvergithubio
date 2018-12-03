@@ -4,37 +4,43 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-# relative_permalinks: true #TODO: Since v3.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Check https://jekyllrb.com/docs/upgrading/ for more info.
-# Caues theme to crash on non-landing page if left. Reckon you can find the error in _layouts
+#relative_permalinks: true
+
+paginate:         1
+
+baseurl:    
+url:              https://datamacgyver.github.io:4000/
+contentspage:     https://datamacgyver.github.io/pagelist.html
 
 author:
   name:           'Rob Mansfield'
   url:            https://twitter.com/dataMacgyver
 
-paginate:         5
 
 # Custom vars
-version:          1.0.0
+version:          1.0.1
 
 github:
   repo:           https://github.com/datamacgyver/datamacgyver.github.io
+  site:           https://github.com/datamacgyver/
 
 # Original Stuff
 title: Data MacGyver
 tagline: 'I have a paperclip and some freetext fields. Make me a general AI.'
-
-author: GitHub User
+author: Rob Mansfield
 email: mansfieldbitter@gmail.com 
 description: > # this means to ignore newlines until "baseurl:"
     Data Science in Farming, by any means necessary.<br>
     Python and R? Of course!<br>
     Java and ECL? Why not.<br>
-    Fortran and C++? Perhaps later? 
+    Fortran and C++? Erm...<br>
+    <a href="https://twitter.com/dataMacgyver" target="_blank">@dataMacgyver</a>
   
 # social links
 twitter_username: datamacgyver
 github_username: datamacgyver
 linkedin_username: rpmansfield
+linkedin_link: https://linkedin.com/in/rpmansfield
 google_plus_username: 
 facebook_username:    
 dribbble_username:
