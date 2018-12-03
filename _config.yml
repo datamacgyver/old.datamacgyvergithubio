@@ -1,9 +1,35 @@
-title: Rob's blog on making data work. Somehow.
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true #TODO: Since v3.0, permalinks for pages in subfolders must be relative to the site source directory, not the parent directory. Check https://jekyllrb.com/docs/upgrading/ for more info.
+# Caues theme to crash on non-landing page if left. Reckon you can find the error in _layouts
+
+author:
+  name:           'Rob Mansfield'
+  url:            https://twitter.com/dataMacgyver
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/datamacgyver/datamacgyver.github.io
+
+# Original Stuff
+title: Data MacGyver
+tagline: 'I have a paperclip and some freetext fields. Make me a general AI.'
+
 author: GitHub User
 email: mansfieldbitter@gmail.com 
 description: > # this means to ignore newlines until "baseurl:"
-  Rob's blog on making data work. Somehow. I work in Python, R, ECL and
-  anything else they throw at me.
+    Data Science in Farming, by any means necessary.<br>
+    Python and R? Of course!<br>
+    Java and ECL? Why not.<br>
+    Fortran and C++? Perhaps later? 
   
 # social links
 twitter_username: datamacgyver
@@ -15,5 +41,3 @@ dribbble_username:
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 show_downloads: true
-
-theme: jekyll-theme-midnight
