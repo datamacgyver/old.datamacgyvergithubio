@@ -9,8 +9,8 @@ permalink:        pretty
 paginate:         1
 
 baseurl:    
-url:              https://datamacgyver.github.io:4000/
-contentspage:     https://datamacgyver.github.io/pagelist.html
+url:              https://datamacgyver.github.io/
+# url:                https://localhost:4000/
 
 author:
   name:           'Rob Mansfield'
@@ -31,9 +31,7 @@ author: Rob Mansfield
 email: mansfieldbitter@gmail.com 
 description: > # this means to ignore newlines until "baseurl:"
     Data Science in Farming, by any means necessary.<br>
-    Python and R? Of course!<br>
-    Java and ECL? Why not.<br>
-    Fortran and C++? Erm...<br>
+    Usually Python, R and a little ECL.
     <a href="https://twitter.com/dataMacgyver" target="_blank">@dataMacgyver</a>
   
 # social links

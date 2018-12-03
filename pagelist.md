@@ -1,5 +1,9 @@
-{% include head.html %}
+---
+layout: default
+title: "Page List"
+---
 
+<div class="page">
 
 <ul>
   {% for post in site.posts %}
@@ -8,4 +12,4 @@
     </li>
   {% endfor %}
 </ul>
-
+</div>
