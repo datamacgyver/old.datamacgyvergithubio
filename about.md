@@ -28,7 +28,7 @@ Checkout my linkedIn (link to the left). I've:
 * Sold yogurts for Rachel's Dairy
 * Spent 8 years studying ecology
 * Spent 2 years lecturing ecology
-* Worked for IBM (never work for IBM)
+* Worked for IBM
 * Been at Proagrica (an RBI company) since 2016
 
 ## Technology
