@@ -30,8 +30,7 @@ tagline: 'I have a paperclip and some freetext fields. Make me a general AI.'
 author: Rob Mansfield
 email: mansfieldbitter@gmail.com 
 description: > # this means to ignore newlines until "baseurl:"
-    Data Science in farming, by any means necessary.<br>
-    Usually Python, R and a little ECL.
+    Data Science in farming, by any means necessary.
     <a href="https://twitter.com/dataMacgyver" target="_blank">@dataMacgyver</a>
   
 # social links
