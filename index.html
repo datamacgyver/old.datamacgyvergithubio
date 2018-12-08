@@ -5,9 +5,10 @@ title: Home
 
 <div class="posts">
   {% for post in paginator.posts %}
+  {% capture post_link %}{{ site.url }}{{ post.url }}{% endcapture %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}{ post.url }}">
+      <a href="{{ post_link }}">
         {{ post.title }}
       </a>
     </h1>
@@ -35,5 +36,7 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+
+{% include share-bar.html %}
 
 
