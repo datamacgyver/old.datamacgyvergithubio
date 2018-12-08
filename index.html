@@ -6,6 +6,7 @@ title: Home
 <div class="posts">
   {% for post in paginator.posts %}
   {% capture post_link %}{{ site.url }}{{ post.url }}{% endcapture %}
+  {% capture post_tag %}{{ post.tag }}{% endcapture %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post_link }}">

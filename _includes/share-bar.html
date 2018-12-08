@@ -100,7 +100,14 @@
 
 <div id="share-bar">
 
-    <h5>Share on</h5>
+    Want to comment? Post on twitter with the hashtag 
+    <a  href="https://twitter.com/intent/tweet?text={{ post_link }}&hashtags={{ post_tag }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="hashshare">
+         <i> #{{ post_tag }}</i>
+    </a>
+        
+    <h5>... or share on</h5>
 
     <div class="share-buttons">
         <a  href="https://www.facebook.com/sharer/sharer.php?u={{ post_link }}"
@@ -109,7 +116,7 @@
             <i class="fa fa-facebook-official share-button"> facebook</i>
         </a>
 
-        <a  href="https://twitter.com/intent/tweet?text={{ post_link }}"
+        <a  href="https://twitter.com/intent/tweet?text={{ post_link }}&hashtags={{ post_tag }}"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Twitter" >
             <i class="fa fa-twitter share-button"> twitter</i>
